@@ -3,6 +3,8 @@ name: mercuryhealth-web
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
